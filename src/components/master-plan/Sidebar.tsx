@@ -1,4 +1,4 @@
-import { LayoutDashboard, ListTodo, Target, BarChart3, Calendar, Settings, Sparkles } from "lucide-react";
+import { LayoutDashboard, ListTodo, Target, BarChart3, Calendar, Settings, Sparkles, User } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
