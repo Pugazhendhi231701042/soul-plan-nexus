@@ -51,9 +51,11 @@ export function Sidebar() {
         <button className="size-11 rounded-full bg-accent/15 border border-accent/30 grid place-items-center text-accent hover:bg-accent/25 transition-all" aria-label="AI">
           <Sparkles className="size-5" strokeWidth={1.75} />
         </button>
-        <div className="size-10 rounded-full bg-gradient-to-br from-primary/40 to-accent/40 border border-white/10 grid place-items-center text-xs font-bold">
-          AX
-        </div>
+        <button className="size-10 rounded-full p-[1.5px] hover:scale-105 transition-transform" style={{ background: "var(--gradient-primary)", boxShadow: "var(--shadow-glow-primary)" }} aria-label="Profile">
+          <div className="w-full h-full rounded-full bg-background grid place-items-center">
+            <User className="size-4 text-primary" strokeWidth={2} />
+          </div>
+        </button>
       </div>
     </aside>
   );
